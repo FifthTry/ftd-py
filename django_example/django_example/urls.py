@@ -24,5 +24,6 @@ urlpatterns = [
     path("api/get-data", views.get_data),
     path("api/post-data", views.post_data),
     path("api/update-status", views.update_todo),
+    path("api/add-task", views.add_task),
     path("", views.IndexView.as_view()),
 ] + ftd_django.static()
